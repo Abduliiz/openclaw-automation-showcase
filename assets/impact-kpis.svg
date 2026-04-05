@@ -1,0 +1,49 @@
+<svg width="1200" height="700" viewBox="0 0 1200 700" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b1020"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <style>
+      .t1{font:700 40px Inter,Arial;fill:#f8fafc}
+      .t2{font:500 16px Inter,Arial;fill:#94a3b8}
+      .card{fill:#1f2937;stroke:#374151;stroke-width:2;rx:18}
+      .k{font:700 42px Inter,Arial;fill:#22d3ee}
+      .l{font:600 16px Inter,Arial;fill:#e2e8f0}
+      .s{font:500 13px Inter,Arial;fill:#9ca3af}
+    </style>
+  </defs>
+  <rect width="1200" height="700" fill="url(#bg)"/>
+  <text x="60" y="76" class="t1">Automation Impact Metrics</text>
+  <text x="60" y="106" class="t2">Measured outcomes from internship and workflow automation implementations</text>
+
+  <rect x="60" y="150" width="340" height="220" class="card"/>
+  <text x="86" y="230" class="k">$54,750</text>
+  <text x="86" y="262" class="l">Annual cost savings</text>
+  <text x="86" y="288" class="s">Bulk network provisioning automation</text>
+
+  <rect x="430" y="150" width="340" height="220" class="card"/>
+  <text x="456" y="230" class="k">30%</text>
+  <text x="456" y="262" class="l">Manual workload reduction</text>
+  <text x="456" y="288" class="s">Workflow tools used by 38 specialists</text>
+
+  <rect x="800" y="150" width="340" height="220" class="card"/>
+  <text x="826" y="230" class="k">80%</text>
+  <text x="826" y="262" class="l">External comms time reduction</text>
+  <text x="826" y="288" class="s">Centralized tracking for 214+ projects</text>
+
+  <rect x="60" y="400" width="340" height="220" class="card"/>
+  <text x="86" y="480" class="k">99%</text>
+  <text x="86" y="512" class="l">Manual review time reduced</text>
+  <text x="86" y="538" class="s">AI validation flow for 50,000+ poles</text>
+
+  <rect x="430" y="400" width="340" height="220" class="card"/>
+  <text x="456" y="480" class="k">2,000+</text>
+  <text x="456" y="512" class="l">Mobile app users</text>
+  <text x="456" y="538" class="s">Cross-platform app built end-to-end</text>
+
+  <rect x="800" y="400" width="340" height="220" class="card"/>
+  <text x="826" y="480" class="k">80%</text>
+  <text x="826" y="512" class="l">API call reduction</text>
+  <text x="826" y="538" class="s">Local cache strategy for prayer data</text>
+</svg>
