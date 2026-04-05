@@ -1,0 +1,58 @@
+<svg width="1200" height="680" viewBox="0 0 1200 680" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <style>
+      .title{font:700 36px Inter,Arial; fill:#f8fafc}
+      .subtitle{font:500 16px Inter,Arial; fill:#cbd5e1}
+      .box{fill:#1f2937; stroke:#334155; stroke-width:2; rx:14}
+      .label{font:600 18px Inter,Arial; fill:#e2e8f0}
+      .small{font:500 14px Inter,Arial; fill:#94a3b8}
+      .arrow{stroke:#60a5fa; stroke-width:3; marker-end:url(#m)}
+    </style>
+    <marker id="m" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#60a5fa"/>
+    </marker>
+  </defs>
+  <rect width="1200" height="680" fill="url(#bg)"/>
+  <text x="60" y="70" class="title">OpenClaw Automation Architecture</text>
+  <text x="60" y="100" class="subtitle">Human-in-the-loop orchestration across messaging, APIs, scheduling, and execution</text>
+
+  <rect x="70" y="170" width="230" height="120" class="box"/>
+  <text x="90" y="215" class="label">Input Layer</text>
+  <text x="90" y="240" class="small">Telegram / Voice / Tasks</text>
+
+  <rect x="360" y="170" width="250" height="120" class="box"/>
+  <text x="380" y="215" class="label">OpenClaw Agent</text>
+  <text x="380" y="240" class="small">Reasoning + Skill Routing</text>
+
+  <rect x="680" y="120" width="220" height="100" class="box"/>
+  <text x="700" y="160" class="label">API Gateway</text>
+  <text x="700" y="185" class="small">Gmail / LinkedIn / Twilio</text>
+
+  <rect x="680" y="250" width="220" height="100" class="box"/>
+  <text x="700" y="290" class="label">Schedulers</text>
+  <text x="700" y="315" class="small">Cron + Heartbeat</text>
+
+  <rect x="970" y="170" width="170" height="120" class="box"/>
+  <text x="990" y="215" class="label">Outputs</text>
+  <text x="990" y="240" class="small">Email / Posts / Alerts</text>
+
+  <rect x="360" y="390" width="540" height="200" class="box"/>
+  <text x="390" y="430" class="label">Automation Modules</text>
+  <text x="390" y="460" class="small">• Email triage and drafting</text>
+  <text x="390" y="485" class="small">• Internship sourcing and digest delivery</text>
+  <text x="390" y="510" class="small">• LinkedIn content pipeline</text>
+  <text x="390" y="535" class="small">• Voice call orchestration</text>
+  <text x="390" y="560" class="small">• Application automation R&amp;D</text>
+
+  <line x1="300" y1="230" x2="360" y2="230" class="arrow"/>
+  <line x1="610" y1="200" x2="680" y2="170" class="arrow"/>
+  <line x1="610" y1="240" x2="680" y2="300" class="arrow"/>
+  <line x1="900" y1="220" x2="970" y2="230" class="arrow"/>
+  <line x1="485" y1="290" x2="630" y2="390" class="arrow"/>
+
+  <text x="60" y="640" class="small">Principle: Automate execution-heavy steps, require explicit approval for high-impact external actions.</text>
+</svg>
