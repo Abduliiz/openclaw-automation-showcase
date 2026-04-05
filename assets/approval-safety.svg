@@ -1,0 +1,43 @@
+<svg width="1200" height="680" viewBox="0 0 1200 680" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .bg{fill:#0b1020}
+      .title{font:700 38px Inter,Arial; fill:#f8fafc}
+      .node{fill:#1f2937; stroke:#374151; stroke-width:2; rx:14}
+      .txt{font:600 18px Inter,Arial; fill:#e5e7eb}
+      .sub{font:500 14px Inter,Arial; fill:#93c5fd}
+      .line{stroke:#60a5fa; stroke-width:3; marker-end:url(#a)}
+      .ok{fill:#10b981}
+      .stop{fill:#ef4444}
+    </style>
+    <marker id="a" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#60a5fa"/>
+    </marker>
+  </defs>
+  <rect width="1200" height="680" class="bg"/>
+  <text x="60" y="80" class="title">Approval Safety Model</text>
+
+  <rect x="90" y="190" width="240" height="130" class="node"/>
+  <text x="118" y="238" class="txt">Draft Stage</text>
+  <text x="118" y="266" class="sub">Content, replies, application packs</text>
+
+  <rect x="410" y="190" width="240" height="130" class="node"/>
+  <text x="438" y="238" class="txt">User Review</text>
+  <text x="438" y="266" class="sub">Explicit approve / revise / reject</text>
+
+  <rect x="730" y="190" width="240" height="130" class="node"/>
+  <text x="758" y="238" class="txt">Execute</text>
+  <text x="758" y="266" class="sub">Send/post/apply only on approval</text>
+
+  <line x1="330" y1="255" x2="410" y2="255" class="line"/>
+  <line x1="650" y1="255" x2="730" y2="255" class="line"/>
+
+  <circle cx="530" cy="420" r="12" class="ok"/>
+  <text x="555" y="427" class="txt" style="font-size:16px">Approved → action proceeds</text>
+
+  <circle cx="530" cy="470" r="12" class="stop"/>
+  <text x="555" y="477" class="txt" style="font-size:16px">Not approved → no external side effects</text>
+
+  <rect x="90" y="530" width="880" height="90" class="node"/>
+  <text x="120" y="585" class="sub">This pattern is used for email sends, LinkedIn posting, and application submission workflows.</text>
+</svg>
