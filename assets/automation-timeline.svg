@@ -1,0 +1,42 @@
+<svg width="1200" height="680" viewBox="0 0 1200 680" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .bg{fill:#111827}
+      .title{font:700 38px Inter,Arial; fill:#f9fafb}
+      .line{stroke:#4b5563; stroke-width:4}
+      .dot{fill:#22d3ee}
+      .card{fill:#1f2937; stroke:#374151; stroke-width:2; rx:12}
+      .h{font:700 16px Inter,Arial; fill:#e5e7eb}
+      .p{font:500 13px Inter,Arial; fill:#93c5fd}
+    </style>
+  </defs>
+  <rect width="1200" height="680" class="bg"/>
+  <text x="60" y="80" class="title">Automation Build Timeline</text>
+
+  <line x1="100" y1="340" x2="1100" y2="340" class="line"/>
+
+  <circle cx="180" cy="340" r="10" class="dot"/>
+  <rect x="120" y="180" width="220" height="120" class="card"/>
+  <text x="140" y="220" class="h">Email + Calendar Ops</text>
+  <text x="140" y="245" class="p">Priority triage and event checks</text>
+
+  <circle cx="380" cy="340" r="10" class="dot"/>
+  <rect x="320" y="390" width="220" height="120" class="card"/>
+  <text x="340" y="430" class="h">LinkedIn Pipeline</text>
+  <text x="340" y="455" class="p">Opinionated draft workflow</text>
+
+  <circle cx="580" cy="340" r="10" class="dot"/>
+  <rect x="520" y="180" width="220" height="120" class="card"/>
+  <text x="540" y="220" class="h">Internship Digest</text>
+  <text x="540" y="245" class="p">Daily Vancouver + Seattle pulls</text>
+
+  <circle cx="780" cy="340" r="10" class="dot"/>
+  <rect x="720" y="390" width="220" height="120" class="card"/>
+  <text x="740" y="430" class="h">Voice Stack</text>
+  <text x="740" y="455" class="p">Twilio integration + call tests</text>
+
+  <circle cx="980" cy="340" r="10" class="dot"/>
+  <rect x="920" y="180" width="220" height="120" class="card"/>
+  <text x="940" y="220" class="h">Application R&amp;D</text>
+  <text x="940" y="245" class="p">Greenhouse + Ashby automation</text>
+</svg>
