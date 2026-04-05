@@ -1,70 +1,103 @@
 # 🦞 OpenClaw Automation Showcase
 
-> A practical, real-world collection of automations I built with OpenClaw.
+> A practical, real-world automation portfolio by Abdulrahman Al Odat.
 
 ![Status](https://img.shields.io/badge/Status-Active-success)
 ![Automation](https://img.shields.io/badge/Automation-Production%20Workflows-blue)
 ![Focus](https://img.shields.io/badge/Focus-AI%20Agents%20%7C%20Ops%20%7C%20Content-purple)
+![Location](https://img.shields.io/badge/Region-Vancouver%20%7C%20Seattle-0ea5e9)
 
 ---
 
 ## ✨ What this repo demonstrates
 
-This repo documents automation systems I designed and ran using OpenClaw across:
+This repo documents end-to-end AI-assisted operations built with OpenClaw across:
 
-- **Email operations** (triage, summaries, approval-first drafting)
-- **Calendar intelligence** (upcoming-event awareness)
-- **LinkedIn workflow** (news-based post drafting with human tone)
-- **Internship sourcing pipeline** (daily role discovery + delivery)
-- **Voice calling experiments** (Twilio setup + interactive call flow)
-- **Job-application automation R&D** (Greenhouse/Ashby autofill framework)
+- **Email intelligence** (priority detection, summaries, tailored drafts)
+- **Calendar awareness** (upcoming-event visibility and prep prompts)
+- **LinkedIn workflow** (news-driven, opinionated content drafting)
+- **Internship sourcing pipeline** (daily role discovery + digest delivery)
+- **Voice automation** (Twilio setup + interactive flow prototyping)
+- **Application automation R&D** (Greenhouse/Ashby autofill engine)
 
-The goal is simple: build practical AI-assisted operations that save time while keeping human approval in control of final actions.
+The operating principle: automate heavy execution while keeping high-impact external actions approval-gated.
 
 ---
 
-## 🧠 Core automation architecture
+## 🧠 Architecture
 
 ![Automation Architecture](assets/architecture-overview.svg)
 
-Key design principle:
+---
 
-- **Automate heavy work**
-- **Keep high-stakes actions approval-gated**
+## 📊 Impact section (with metrics)
+
+![Impact KPIs](assets/impact-kpis.svg)
+
+### Key numbers
+
+- **$54,750 annual savings** from provisioning automation
+- **30% manual workload reduction** across internal specialist workflows
+- **80% external communication reduction** via centralized tracking
+- **99% manual review-time reduction** on AI-assisted validation
+- **50,000+ records processed** in data/validation workflows
+- **2,000+ app users** and **80% API-call reduction** in mobile product work
+
+More details: [`docs/impact-metrics.md`](docs/impact-metrics.md)
 
 ---
 
-## 🔁 Major workflows
+## 🔁 Automation visuals
+
+### Daily internship sourcing system
+
+![Internship Funnel](assets/internship-funnel.svg)
+
+### Approval-safe execution model
+
+![Approval Safety](assets/approval-safety.svg)
+
+### Build progression timeline
+
+![Automation Timeline](assets/automation-timeline.svg)
+
+### Workflow map
+
+![Workflow Map](assets/workflow-map.svg)
+
+---
+
+## 🧩 Major workflow modules
 
 ### 1) Important email monitoring
 
-- Daily scans for priority inbox items
-- Human-sounding draft replies
-- No outbound send without explicit approval
+- Scans unread inbox for high-signal items
+- Drafts natural, human-sounding responses
+- Sends only with explicit approval
 
 ### 2) LinkedIn content pipeline
 
-- Tech/news scanning (AI, agents, market signals)
-- Opinionated, personal-tone drafts
-- Scheduled cadence with manual post approval
+- Pulls current AI/agent/job-market signals
+- Drafts posts in a personal voice
+- Uses scheduled cadence + approval before publish
 
 ### 3) Internship discovery (Vancouver + Seattle)
 
-- Pull focused internship opportunities
-- Prioritize Winter/Fall 2026 terms
-- Deliver digests with links + fit notes
+- Pulls around 10 internship opportunities/day
+- Prioritizes **Winter/Fall 2026** terms
+- Delivers digest with direct links + fit notes via email
 
-### 4) Voice automation prototype
+### 4) Voice automation stack
 
-- Twilio free-tier setup and number provisioning
-- Call initiation and interactive flow testing
-- Foundation for future real-time conversational agent
+- Twilio integration and number provisioning
+- Programmatic outbound calling
+- Interactive flow experiments for future real-time agent voice
 
----
+### 5) Application automation research
 
-## 🖼️ Workflow visual
-
-![Workflow Diagram](assets/workflow-map.svg)
+- Reusable profile-based autofill for Greenhouse/Ashby
+- Dry-run + submit modes
+- Dynamic form handling and safety checks
 
 ---
 
@@ -76,9 +109,14 @@ openclaw-automation-showcase/
 ├── docs/
 │   ├── automations.md
 │   ├── design-principles.md
+│   ├── impact-metrics.md
 │   └── roadmap.md
 └── assets/
     ├── architecture-overview.svg
+    ├── impact-kpis.svg
+    ├── internship-funnel.svg
+    ├── approval-safety.svg
+    ├── automation-timeline.svg
     └── workflow-map.svg
 ```
 
@@ -86,35 +124,27 @@ openclaw-automation-showcase/
 
 ## 🎯 Design principles
 
-1. **Human-in-the-loop first** for external/public actions
-2. **Task batching** to reduce operational overhead
-3. **High signal updates** over noisy notifications
-4. **Reusability** via skills, templates, and repeatable scripts
-5. **Operational clarity** with explicit schedules and outputs
+1. **Human-in-the-loop first** for irreversible/public actions
+2. **High automation, low risk** through explicit approval gates
+3. **Concise actionable outputs** over noisy notifications
+4. **Reusable building blocks** via skills + templates + scripts
+5. **Measurable outcomes** as the success benchmark
 
 ---
 
-## 🚀 Why this matters
+## 🚀 Why this portfolio matters
 
-This project is a concrete example of turning AI from a chat tool into an **operations layer** for daily execution.
+This is not prompt demos. It is operations engineering with AI agents:
 
-It combines:
-
-- agent orchestration
-- messaging workflows
+- orchestration
 - API integrations
 - scheduling
-- approval-safe automation
+- communication pipelines
+- execution controls
+- outcome tracking
+
+It shows how AI becomes a practical execution layer for real daily work.
 
 ---
 
-## 📌 Next upgrades
-
-- richer job intelligence scoring
-- stricter application success verification
-- more robust browser automation abstractions
-- improved reporting dashboards
-
----
-
-If you’re building practical AI workflows too, feel free to fork and adapt.
+If you're building practical AI operations too, feel free to fork and adapt.
