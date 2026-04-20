@@ -28,22 +28,6 @@ The operating principle: automate heavy execution while keeping high-impact exte
 
 ![Automation Architecture](assets/architecture-overview.svg)
 
----
-
-## 📊 Impact section (with metrics)
-
-![Impact KPIs](assets/impact-kpis.svg)
-
-### Key numbers
-
-- **$54,750 annual savings** from provisioning automation
-- **30% manual workload reduction** across internal specialist workflows
-- **80% external communication reduction** via centralized tracking
-- **99% manual review-time reduction** on AI-assisted validation
-- **50,000+ records processed** in data/validation workflows
-- **2,000+ app users** and **80% API-call reduction** in mobile product work
-
-More details: [`docs/impact-metrics.md`](docs/impact-metrics.md)
 
 ---
 
